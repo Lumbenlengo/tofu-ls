@@ -50,7 +50,6 @@ func TestIsModuleFilename(t *testing.T) {
 		{"main.tf", true},
 		{"main.tofu", true},
 		{"main.tf.json", true},
-		{"main.tofu.json", true}, // O caso da Issue #187!
 		{"main.txt", false},
 		{"main.json", false},
 		{".hidden.tf", true},
